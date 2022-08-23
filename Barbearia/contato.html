@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="container">
-            <h1><img class="logo" src="img/logo.png"></h1>
+            <h1><img class="logo" src="img/logo.png" alt="logo da barbearia alura"></h1>
 
             <nav>
                 <ul>
@@ -29,26 +29,26 @@
         <form>
             <div class="box-form">
                 <label for="nome-completo">Nome Completo</label>
-                <input type="text" id="nome-completo">
+                <input type="text" id="nome-completo" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" placeholder="seuemail@dominio.com" required>
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="senha">
+                <input type="tel" id="telefone" placeholder="(XX) XXXXX - XXXX" required>
 
-                <textarea name="" id="" cols="60" rows="8"></textarea>
+                <textarea name="" id="" cols="60" rows="8" required></textarea>
 
-                <div class="box-select">
+                <fieldset class="box-select">
                     <p class="question">Em qual horario quer ser atendido?</p>
                     <select name="" id="">
                         <option value="">Manhã</option>
                         <option value="">Tarde</option>
                         <option value="">Noite</option>
                     </select>
-                </div>
+                </fieldset>
 
-                <div class="contact">
+                <fieldset class="contact">
                     <p class="question">Como prefere o nosso contato?</p>
                     <label for="radio-email">
                         Email
@@ -64,7 +64,7 @@
                         WhatsApp
                         <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
                     </label>
-                </div>
+                </fieldset>
 
                 <input class="btn" type="submit">
                 <a class="forgot" href="">Esqueci o email</a>
