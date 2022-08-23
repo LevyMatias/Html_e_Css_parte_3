@@ -3,6 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #331b1b;
+    height: 150vh;
 }
 
 header {
@@ -43,9 +44,86 @@ header nav ul a:hover {
     color: #de7019;
 }
 
+main {
+    height: 100%;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+form label, input {
+    display: block;
+    font-size: 18px;
+    width: 30%;
+}
+
+textarea {
+    display: block;
+    margin: 55px auto;
+    font-size: 18px;
+    outline: none;
+}
+
+form label{
+    text-align: center;
+    color: #e3c5ad;
+    margin: 15px auto;
+}
+
+form input {
+    padding: 5px 20px;
+    outline: none;
+    margin: 10px auto;
+}
+
+.contact, .box-select {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.box-select select {
+    padding: 5px 25px;
+}
+
+.contact label {
+    display: inline-block;
+}
+
+.contact .box-select, .question {
+    color: #e3c5ad;
+    margin-bottom: 30px;
+}
+
+.forgot {
+    position: absolute;
+    left: 52%;
+    margin-top: 22px;
+    margin-left: 12px;
+    color: #e3c5ad;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #e3c5ad;
+    position: absolute;
+    left: 32.8%;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #331b1b;
+    width: 160px;
+    padding: 10px 0;
+}
+
 /*footer*/
 
 footer {
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
     background-color: #e3c5ad;
     padding: 20px 0;
     text-align: center;
