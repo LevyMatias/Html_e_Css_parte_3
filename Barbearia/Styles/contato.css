@@ -97,33 +97,39 @@ form input {
     margin-bottom: 30px;
 }
 
-.forgot {
+.box-buttons {
     position: absolute;
-    left: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 3%;
+    display: flex;
+}
+
+.forgot {
     margin-top: 22px;
     margin-left: 12px;
     color: #e3c5ad;
-    text-decoration: none;
 }
 
 .btn {
     background-color: #e3c5ad;
-    position: absolute;
-    left: 32.8%;
     border: none;
     cursor: pointer;
     border-radius: 3px;
     color: #331b1b;
-    width: 160px;
+    width: 220px;
     padding: 10px 0;
+    transition: .3s ease-in;
+}
+
+.btn:hover {
+    background-color: #f5eae2;
 }
 
 /*footer*/
 
 footer {
     width: 100%;
-    /* position: absolute; */
-    /* bottom: 0; */
     background-color: #e3c5ad;
     padding: 20px 0;
     text-align: center;
