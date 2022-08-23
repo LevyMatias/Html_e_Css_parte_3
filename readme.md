@@ -26,13 +26,24 @@
 - Trabalhe com transformações e transições
 
 
+
+### Projeto Demo 
+
+image 
+
+![game](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Projeto_Barbearia_One/contato.png)
+
+
+
+
 ### Como executar o projeto 🚀
 
 ##### localmente
 
 ```
 # Clone o repositório
-git clone 
+git clone https://github.com/LevyMatias/Html_e_Css_parte_3.git
 
 # Entre no diretório
 cd Html_e_Css_parte_3/
