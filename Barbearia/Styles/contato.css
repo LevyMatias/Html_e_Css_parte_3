@@ -3,7 +3,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #331b1b;
-    height: 150vh;
 }
 
 header {
@@ -45,13 +44,15 @@ header nav ul a:hover {
 }
 
 main {
+    width: 100%;
     height: 100%;
 }
 
+/* formulario*/
 form {
     width: 100%;
-    height: 100%;
     margin-top: 60px;
+    margin-bottom:35px;
 }
 
 form label, input {
@@ -73,7 +74,7 @@ form label{
     margin: 15px auto;
 }
 
-form input {
+.box-form input {
     padding: 5px 20px;
     outline: none;
     margin: 10px auto;
@@ -97,21 +98,39 @@ form input {
     margin-bottom: 30px;
 }
 
-.box-buttons {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    bottom: 3%;
-    display: flex;
-}
-
-.forgot {
-    margin-top: 22px;
-    margin-left: 12px;
+/* table */
+table {
+    width: 50%;
+    margin: 0 auto;
     color: #e3c5ad;
 }
 
-.btn {
+thead {
+    background: #de7019;
+    color: #e3c5ad;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #e3c5ad;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.box-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.forgot {
+    margin-left: 12px;
+    color: #e3c5ad;
+}
+/* end form*/
+
+.box-buttons .btn {
     background-color: #e3c5ad;
     border: none;
     cursor: pointer;
@@ -132,5 +151,6 @@ footer {
     width: 100%;
     background-color: #e3c5ad;
     padding: 20px 0;
+    margin-top: 55px;
     text-align: center;
 }
