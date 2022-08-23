@@ -51,6 +51,8 @@ header nav ul a:hover {
 	margin-top: 55px;
 	background-color: #e3c5ad;
 	color: #331b1b;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #de7019;
 }
 
 .banner {
@@ -67,14 +69,12 @@ header nav ul a:hover {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 18px;
-}
-
-em strong {
-	color: #FF0000;
+	padding-top: 25px;
 }
 
 .beneficios {
 	background-color: #e3c5ad;
+	color: #331b1b;
 }
 
 .beneficios ul {
@@ -92,4 +92,13 @@ em strong {
 	width: 50%;
 	left: 10%;
 	padding: 25px;
+	border-radius: 35px;
+}
+
+footer {
+    width: 100%;
+    background-color: #e3c5ad;
+    padding: 20px 0;
+    text-align: center;
+	margin-top: 55px;
 }
